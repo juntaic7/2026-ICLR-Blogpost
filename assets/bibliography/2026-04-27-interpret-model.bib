@@ -57,3 +57,159 @@
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2501.16496}, 
 }
+
+@inproceedings{Engels2024NotAL,
+  title={Not All Language Model Features Are One-Dimensionally Linear},
+  author={Joshua Engels and Isaac Liao and Eric J. Michaud and Wes Gurnee and Max Tegmark},
+  booktitle={International Conference on Learning Representations},
+  year={2024},
+  url={https://api.semanticscholar.org/CorpusID:269983112}
+}
+
+@article{
+engels2025decomposing,
+title={Decomposing The Dark Matter of Sparse Autoencoders},
+author={Joshua Engels and Logan Riggs Smith and Max Tegmark},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2025},
+url={https://openreview.net/forum?id=sXq3Wb3vef},
+note={}
+}
+
+
+@misc{braun2025interpretabilityparameterspaceminimizing,
+      title={Interpretability in Parameter Space: Minimizing Mechanistic Description Length with Attribution-based Parameter Decomposition}, 
+      author={Dan Braun and Lucius Bushnaq and Stefan Heimersheim and Jake Mendel and Lee Sharkey},
+      year={2025},
+      eprint={2501.14926},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2501.14926}, 
+}
+
+@inproceedings{clark-etal-2019-bert,
+    title = "What Does {BERT} Look at? An Analysis of {BERT}{'}s Attention",
+    author = "Clark, Kevin  and
+      Khandelwal, Urvashi  and
+      Levy, Omer  and
+      Manning, Christopher D.",
+    editor = "Linzen, Tal  and
+      Chrupa{\l}a, Grzegorz  and
+      Belinkov, Yonatan  and
+      Hupkes, Dieuwke",
+    booktitle = "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+    month = aug,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W19-4828/",
+    doi = "10.18653/v1/W19-4828",
+    pages = "276--286",
+    abstract = "Large pre-trained neural networks such as BERT have had great recent success in NLP, motivating a growing body of research investigating what aspects of language they are able to learn from unlabeled data. Most recent analysis has focused on model outputs (e.g., language model surprisal) or internal vector representations (e.g., probing classifiers). Complementary to these works, we propose methods for analyzing the attention mechanisms of pre-trained models and apply them to BERT. BERT{'}s attention heads exhibit patterns such as attending to delimiter tokens, specific positional offsets, or broadly attending over the whole sentence, with heads in the same layer often exhibiting similar behaviors. We further show that certain attention heads correspond well to linguistic notions of syntax and coreference. For example, we find heads that attend to the direct objects of verbs, determiners of nouns, objects of prepositions, and coreferent mentions with remarkably high accuracy. Lastly, we propose an attention-based probing classifier and use it to further demonstrate that substantial syntactic information is captured in BERT{'}s attention."
+}
+
+@inproceedings{NIPS2017_3f5ee243,
+ author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, \L ukasz and Polosukhin, Illia},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {Attention is All you Need},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf},
+ volume = {30},
+ year = {2017}
+}
+
+@misc{
+alain2017understanding,
+title={Understanding intermediate layers using linear classifier probes},
+author={Guillaume Alain and Yoshua Bengio},
+year={2017},
+url={https://openreview.net/forum?id=ryF7rTqgl}
+}
+
+@inproceedings{conneau-etal-2018-cram,
+    title = "What you can cram into a single {\$}{\&}!{\#}* vector: Probing sentence embeddings for linguistic properties",
+    author = {Conneau, Alexis  and
+      Kruszewski, German  and
+      Lample, Guillaume  and
+      Barrault, Lo{\"i}c  and
+      Baroni, Marco},
+    editor = "Gurevych, Iryna  and
+      Miyao, Yusuke",
+    booktitle = "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2018",
+    address = "Melbourne, Australia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P18-1198/",
+    doi = "10.18653/v1/P18-1198",
+    pages = "2126--2136",
+    abstract = "Although much effort has recently been devoted to training high-quality sentence embeddings, we still have a poor understanding of what they are capturing. ``Downstream'' tasks, often based on sentence classification, are commonly used to evaluate the quality of sentence representations. The complexity of the tasks makes it however difficult to infer what kind of information is present in the representations. We introduce here 10 probing tasks designed to capture simple linguistic features of sentences, and we use them to study embeddings generated by three different encoders trained in eight distinct ways, uncovering intriguing properties of both encoders and training methods."
+}
+
+@inproceedings{tenney-etal-2019-bert,
+    title = "{BERT} Rediscovers the Classical {NLP} Pipeline",
+    author = "Tenney, Ian  and
+      Das, Dipanjan  and
+      Pavlick, Ellie",
+    editor = "Korhonen, Anna  and
+      Traum, David  and
+      M{\`a}rquez, Llu{\'i}s",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-1452/",
+    doi = "10.18653/v1/P19-1452",
+    pages = "4593--4601",
+    abstract = "Pre-trained text encoders have rapidly advanced the state of the art on many NLP tasks. We focus on one such model, BERT, and aim to quantify where linguistic information is captured within the network. We find that the model represents the steps of the traditional NLP pipeline in an interpretable and localizable way, and that the regions responsible for each step appear in the expected sequence: POS tagging, parsing, NER, semantic roles, then coreference. Qualitative analysis reveals that the model can and often does adjust this pipeline dynamically, revising lower-level decisions on the basis of disambiguating information from higher-level representations."
+}
+
+@inproceedings{NEURIPS2020_92650b2e,
+ author = {Vig, Jesse and Gehrmann, Sebastian and Belinkov, Yonatan and Qian, Sharon and Nevo, Daniel and Singer, Yaron and Shieber, Stuart},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},
+ pages = {12388--12401},
+ publisher = {Curran Associates, Inc.},
+ title = {Investigating Gender Bias in Language Models Using Causal Mediation Analysis},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/92650b2e92217715fe312e6fa7b90d82-Paper.pdf},
+ volume = {33},
+ year = {2020}
+}
+
+
+@inproceedings{10.5555/3600270.3601532,
+author = {Meng, Kevin and Bau, David and Andonian, Alex and Belinkov, Yonatan},
+title = {Locating and editing factual associations in GPT},
+year = {2022},
+isbn = {9781713871088},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {We analyze the storage and recall of factual associations in autoregressive transformer language models, finding evidence that these associations correspond to localized, directly-editable computations. We first develop a causal intervention for identifying neuron activations that are decisive in a model's factual predictions. This reveals a distinct set of steps in middle-layer feed-forward modules that mediate factual predictions while processing subject tokens. To test our hypothesis that these computations correspond to factual association recall, we modify feedforward weights to update specific factual associations using Rank-One Model Editing (ROME). We find that ROME is effective on a standard zero-shot relation extraction (zsRE) model-editing task. We also evaluate ROME on a new dataset of difficult counterfactual assertions, on which it simultaneously maintains both specificity and generalization, whereas other methods sacrifice one or another. Our results confirm an important role for mid-layer feed-forward modules in storing factual associations and suggest that direct manipulation of computational mechanisms may be a feasible approach for model editing.},
+booktitle = {Proceedings of the 36th International Conference on Neural Information Processing Systems},
+articleno = {1262},
+numpages = {14},
+location = {New Orleans, LA, USA},
+series = {NIPS '22}
+}
+
+@inproceedings{
+rajamanoharan2024improving,
+title={Improving Sparse Decomposition of Language Model Activations with Gated Sparse Autoencoders},
+author={Senthooran Rajamanoharan and Arthur Conmy and Lewis Smith and Tom Lieberum and Vikrant Varma and Janos Kramar and Rohin Shah and Neel Nanda},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=zLBlin2zvW}
+}
+
+@inproceedings{
+bussmann2025learning,
+title={Learning Multi-Level Features with Matryoshka Sparse Autoencoders},
+author={Bart Bussmann and Noa Nabeshima and Adam Karvonen and Neel Nanda},
+booktitle={Forty-second International Conference on Machine Learning},
+year={2025},
+url={https://openreview.net/forum?id=m25T5rAy43}
+}
